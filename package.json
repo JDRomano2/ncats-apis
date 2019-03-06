@@ -1,0 +1,19 @@
+{
+  "name": "ncats-apis",
+  "version": "1.0.0",
+  "description": "Package demoing automated REST API and documentation generation for biomedical relationsal databases.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ncats",
+    "informatics",
+    "databases"
+  ],
+  "author": "Joseph D. Romano",
+  "license": "ISC",
+  "dependencies": {
+    "xmysql": "^0.4.9"
+  }
+}
