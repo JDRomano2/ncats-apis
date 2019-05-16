@@ -11,6 +11,7 @@ info:
     x-role: API developer
     email: jdr2160@cumc.columbia.edu
     x-id: 'https://github.com/JDRomano2'
+  termsOfService: https://github.com/JDRomano2/ncats-apis/blob/master/date/terms.md
 servers:
   - url: 'http://date.nsides.io'
     description: 'Production server'
