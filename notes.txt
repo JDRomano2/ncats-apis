@@ -2,5 +2,8 @@ Adding primary key to tables:
 e.g.,:
 ALTER TABLE date_reactome_pathway ADD COLUMN `id` int(10) unsigned primary KEY AUTO_INCREMENT;
 
-Starting xmysql (e.g., as a PM2 process):
+Starting xmysql:
 xmysql -h [AWS_RDS_HOSTNAME] -u [USER] -p [PASSWORD] -o 3306 -d tlab_ncats_apis
+
+Starting xmysql as a PM2 process:
+pm2 start node_modules/xmysql/bin/index.js -- -h [AWS_RDS_HOSTNAME] -u [USER] -p [PASSWORD] -o 3306 -d tlab_ncats_apis
