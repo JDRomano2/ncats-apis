@@ -8,9 +8,9 @@ info:
     to perform JOINs remotely.
   contact:
     name: Joseph D. Romano
-    x-role: API developer
+    x-role: responsible developer
     email: jdr2160@cumc.columbia.edu
-    x-id: 'https://github.com/JDRomano2'
+    x-id: https://github.com/JDRomano2
   termsOfService: https://github.com/JDRomano2/ncats-apis/blob/master/date/terms.md
 servers:
   - url: 'http://date.nsides.io'
